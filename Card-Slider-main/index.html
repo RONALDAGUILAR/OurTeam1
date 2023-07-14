@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team</title>
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <h1>Our Team</h1>
+  <section class="swiper mySwiper">
+
+    <div class="swiper-wrapper">
+
+      <div class="card swiper-slide">
+        <div class="card__image">
+          <img src="C:\Users\earlj\OneDrive\Desktop\Card-Slider-main\images\ww.jpg" alt="card image">
+        </div>
+
+        <div class="card__content">
+          <span class="card__title">Head team</span>
+          <span class="card__name">Mayee Solijon Cruz</span>
+          <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit veritatis labore provident non tempora odio est sunt, ipsum</p>
+          <button class="card__btn">View More</button>
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="card__image">
+          <img src="C:\Users\earlj\OneDrive\Desktop\Card-Slider-main\images\ss.jpg" alt="card image">
+        </div>
+
+        <div class="card__content">
+          <span class="card__title">Programmer</span>
+          <span class="card__name">Kirk Anthony Mendoza</span>
+          <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit veritatis labore provident non tempora odio est sunt, ipsum</p>
+          <button class="card__btn">View More</button>
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="card__image">
+          <img src="C:\Users\earlj\OneDrive\Desktop\Card-Slider-main\images\ee.jpg" alt="card image">
+        </div>
+
+        <div class="card__content">
+          <span class="card__title">Web Developer</span>
+          <span class="card__name">Ronald Aguilar Gardoce</span>
+          <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit veritatis labore provident non tempora odio est sunt, ipsum</p>
+          <button class="card__btn">View More</button>
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="card__image">
+          <img src="C:\Users\earlj\OneDrive\Desktop\Card-Slider-main\images\qq.jpg" alt="card image">
+        </div>
+
+        <div class="card__content">
+          <span class="card__title">Web Designer</span>
+          <span class="card__name">Earl Junicel Guardiana</span>
+          <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit veritatis labore provident non tempora odio est sunt, ipsum</p>
+          <button class="card__btn">View More</button>
+        </div>
+      </div>
+      
+      <div class="card swiper-slide">
+        <div class="card__image">
+          <img src="C:\Users\earlj\OneDrive\Desktop\Card-Slider-main\images\tt.jpg" alt="card image">
+        </div>
+
+        <div class="card__content">
+          <span class="card__title">Mobile App Developer</span>
+          <span class="card__name">James Tirariray</span>
+          <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit veritatis labore provident non tempora odio est sunt, ipsum</p>
+          <button class="card__btn">View More</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+<!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 300,
+        modifier: 1,
+        slideShadows: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+
+</body>
+</html>
